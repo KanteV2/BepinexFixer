@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModInstaller", "ModInstaller\ModInstaller.csproj", "{67AD6E10-8610-46EF-8EB4-A4D83B7DF574}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67AD6E10-8610-46EF-8EB4-A4D83B7DF574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67AD6E10-8610-46EF-8EB4-A4D83B7DF574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67AD6E10-8610-46EF-8EB4-A4D83B7DF574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67AD6E10-8610-46EF-8EB4-A4D83B7DF574}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84B28BD8-862F-432A-B815-A6CC79DC1B66}
+	EndGlobalSection
+EndGlobal

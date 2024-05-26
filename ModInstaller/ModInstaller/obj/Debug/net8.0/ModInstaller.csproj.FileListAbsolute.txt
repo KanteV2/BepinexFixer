@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\ModInstaller\ModInstaller\bin\Debug\net8.0\ModInstaller.exe
+C:\Users\Admin\source\repos\ModInstaller\ModInstaller\bin\Debug\net8.0\ModInstaller.deps.json
+C:\Users\Admin\source\repos\ModInstaller\ModInstaller\bin\Debug\net8.0\ModInstaller.runtimeconfig.json
+C:\Users\Admin\source\repos\ModInstaller\ModInstaller\bin\Debug\net8.0\ModInstaller.dll
+C:\Users\Admin\source\repos\ModInstaller\ModInstaller\bin\Debug\net8.0\ModInstaller.pdb
+C:\Users\Admin\source\repos\ModInstaller\ModInstaller\obj\Debug\net8.0\ModInstaller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\ModInstaller\ModInstaller\obj\Debug\net8.0\ModInstaller.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\ModInstaller\ModInstaller\obj\Debug\net8.0\ModInstaller.AssemblyInfo.cs
+C:\Users\Admin\source\repos\ModInstaller\ModInstaller\obj\Debug\net8.0\ModInstaller.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\ModInstaller\ModInstaller\obj\Debug\net8.0\ModInstaller.dll
+C:\Users\Admin\source\repos\ModInstaller\ModInstaller\obj\Debug\net8.0\refint\ModInstaller.dll
+C:\Users\Admin\source\repos\ModInstaller\ModInstaller\obj\Debug\net8.0\ModInstaller.pdb
+C:\Users\Admin\source\repos\ModInstaller\ModInstaller\obj\Debug\net8.0\ModInstaller.genruntimeconfig.cache
+C:\Users\Admin\source\repos\ModInstaller\ModInstaller\obj\Debug\net8.0\ref\ModInstaller.dll
