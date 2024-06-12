@@ -61,11 +61,11 @@ namespace Unix
                     }
                     #endregion
                     #region Downloading and Extracting BepInEx Files
-                    string bepinex = "https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.1/BepInEx_win_x64_5.4.23.1.zip";
+                    string bepinex = "https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_win_x64_5.4.23.2.zip";
                     WebClient c = new WebClient();
-                    c.DownloadFile(bepinex, "BepInEx_win_x64_5.4.23.1.zip");
-                    ZipFile.ExtractToDirectory("BepInEx_win_x64_5.4.23.1.zip", GetPathToInstall());
-                    File.Delete($@"{AppDomain.CurrentDomain.BaseDirectory}\BepInEx_win_x64_5.4.23.1.zip");
+                    c.DownloadFile(bepinex, "BepInEx_win_x64_5.4.23.2.zip");
+                    ZipFile.ExtractToDirectory("BepInEx_win_x64_5.4.23.2.zip", GetPathToInstall());
+                    File.Delete($@"{AppDomain.CurrentDomain.BaseDirectory}\BepInEx_win_x64_5.4.23.2.zip");
                     Directory.CreateDirectory($@"{GetPathToInstall()}\BepInEx\plugins");
                     #endregion
                     #region Restoring Files
