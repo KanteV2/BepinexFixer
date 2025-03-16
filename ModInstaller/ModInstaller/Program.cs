@@ -2,6 +2,9 @@
 using System.IO;
 using System.IO.Compression;
 using System.Net;
+using System;
+using System.Net.Http;
+using System.Text.RegularExpressions;
 
 namespace Unix
 {
@@ -25,6 +28,17 @@ namespace Unix
                     result = @"D:\Program Files\Oculus\Software\Software\another-axiom-gorilla-tag";
             }
             return result;
+        }
+
+        public static string GetLatest() {
+                        using HttpClient client = new HttpClient();
+        client.DefaultRequestHeaders.UserAgent.ParseAdd("Mozilla/5.0");
+
+        string apiUrl = $"https://api.github.com/repos/BepInEx/BepInEx/releases/latest";
+        string json = client.GetStringAsync(apiUrl).Result; // Blocking call to avoid async
+
+        Match match = Regex.Match(json, @"""html_url"":""(.*?)""");
+        return match.Success ? match.Groups[1].Value : "Not found";
         }
 
         static bool alreadyInstalledBepInEx = false;
